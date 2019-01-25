@@ -12,11 +12,13 @@
 ## HA Proxy 를 통한 HA 구성 방안 - 1
 
 * HA Proxy 를 사용하면, 하나의 Server Machine 에서 두 개 이상의 Web Application 을 이중화할 수 있습니다.
+
   ![internal](img/9_haproxy_internal.png)
 
 ## HA Proxy 를 통한 HA 구성 방안 - 2
 
 * 다음과 같이 L4 Switch 와 동일하게 구성할 수 있습니다.
+
   ![internal](img/10_haproxy.png)
 
 # NAS 를 통한 파일 통합 관리
