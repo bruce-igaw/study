@@ -28,3 +28,9 @@
 ### Web Application
 
 * ASP.NET, .NET Core Web API, JSP, PHP 등으로 구현된 웹 어플리케이션입니다.
+
+# DB 서버 분리
+
+* 일반적으로 1대의 Server Machine 에 Database 및 웹 서버를 구성하기는 하나, 성능을 향상시키기 위해 Database 서버를 따로 분리합니다.
+
+* 웹 서버 DB 서버 분리는 [다음 페이지](웹&#32;서버&#32;DB&#32;서버&#32;분리.md)에서 다루겠습니다.
