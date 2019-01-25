@@ -23,11 +23,13 @@
 * 그 세션을 공유하지 않는다면 두 번째 서버에서는 로그인한 것을 알 수가 없을 것입니다.
 * 이러한 현상을 해결하기 위해 Sticky Session 을 사용합니다.
 * Sticky Session 은 A 란 사용자가 첫 번째 서버로 접속하였다면 물건을 구입할 때도 첫 번째 서버에서 작업이 이루어지도록 처리하는 것을 말합니다.
+  ![sticky](img/6_stickysession.png)
 
 #### Failover
 
 * Failover 는 장애 극복이라고도 불립니다.
 * Faileover 는 서버, 시스템, 네트워크 등에서 장애가 발생했을 때, 예비 시스템으로 자동전환되는 것을 말합니다.
+  ![failover](img/5_failover.png)
 
 #### Health Check
 
