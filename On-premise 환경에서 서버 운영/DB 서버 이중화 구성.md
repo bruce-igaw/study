@@ -16,7 +16,7 @@
 * HA Proxy 는 Slave Database 로 접속 시도할 것입니다.
 * 이 때 A 라는 사용자가 입력한 데이터는 Slave Database 에 없으므로 찾을 수 없습니다.
 
-### 이 때 NAS 를 사용한다? 생각을 해봅시다...
+### 이 때 NAS 를 사용한다?
 
 * 만약 Database 이중화를 위해 NAS 를 사용한다고 해봅시다.
 * NAS 장치에 Data 를 Insert, Delete, Update, Select 한다고 했을 때 무슨 일이 벌어질까요?
@@ -34,4 +34,19 @@
 
 ![db_replication](img/14_db_replication.png)
 
-### 하지만 Database 이중화 구성은 이게 다가 아닙니다.
+## 하지만 생각을 해봅시다..
+
+* 단가가 높은 SQL Server 나 Oracle 서버를 Master - Slave 로 구축하여 Slave Database 는 장애 발생 시, Failover 를 위해 그냥 놔둔다면 손해일 것입니다.  
+* 특히 Database 서버는 기본적으로 최고사양을 사용할 것입니다. CPU / Memory 자원 손실이 어마어마 할 것입니다.
+* 따라서 대부분 Database Replication 시, Master - Slave 형태가 아닌 Operation 별로 처리할 수 있도록 다음과 같은 형태로 구축합니다.
+  ![db_replication2](img/15_db_replication.png)
+
+### Database 이중화 구성의 수 많은 형태
+
+* 하지만 위 그림 처럼 구축하는 것이 제일의 방식은 아닙니다. Database 이중화 구성은 각각의 업체 환경에 따라 천차만별이며, 이중화 구성하는 것이 오히려 독이 될 수 있는 업체도 있을 것입니다.
+* [다음 Article](https://www.brianstorti.com/replication/) 은 다양한 형태의 Database 이중화 구성을 잘 설명해 놓았습니다. 
+
+# 마치며
+
+* 지금까지 On-premise 환경에서 웹 서버를 구축하기 위한 네트워크 망 분리, HA 구성, Database 이중화에 대해서 알아보았습니다.
+* 그렇다면 Cloud 환경은 어떤 기술 Stack 으로 이루어졌는지 다음 챕터에서 알아보겠습니다.
