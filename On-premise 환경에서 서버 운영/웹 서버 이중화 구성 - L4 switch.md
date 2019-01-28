@@ -4,7 +4,7 @@
 
 * L4 스위치는 TCP/UDP 프로토콜에서 스위칭을 수행하므로 TCP 와 UDP 포트를 보고 적절한 서버로 패킷을 전송하는 역할을 합니다.
 * L4 Switch 내 VIP(Virtual IP) 를 통해 로드밸런싱을 수행합니다.
-* 또한 Heal Check 를 통해 Failover 기능을 수행할 수 있습니다.
+* 또한 Health Check 를 통해 Failover 기능을 수행할 수 있습니다.
   ![L4switch](img/7_l4_switch.png)
 
 ### L4 Switch 를 통한 웹 서버 HA 구성
