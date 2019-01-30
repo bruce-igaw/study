@@ -1,14 +1,17 @@
 # Docker
 
-### 이 페이지의 내용은 다음 웹 문서를 참고하였습니다.   
+### 이 문서의 내용은 다음 웹 페이지를 그대로 사용하였습니다.
 
-* 아래 웹 문서는 Docker 에 대해 잘 설명하였기 때문에 꼭 한 번 보시기 바랍니다.
+* 링크
   * https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html
   * http://pyrasis.com/book/DockerForTheReallyImpatient/Chapter01/01
+* 위 웹 페이지는 Docker 에 대해 잘 설명하였기 때문에 꼭 한 번 보시기 바랍니다.
+* Docker 대한 개념들은 너무 방대하여 혼자서 정리하기가 힘들고, 오히려 잘 정리한 문서가 많기 때문에 위 페이지로 대체하겠습니다.
+* Evernote 노트 공유 링크를 통해 하이라이트된 것 위주로 읽으시면 됩니다.
 
 # Docker 의 등장
 
-### [Evernote 노트 공유](https://www.evernote.com/l/AJBI1MggyH9Ac5tcj74cqL6hJrpLn3I7Phw/) (하이라이트된 것 위주로 읽으시면 됩니다.)
+### [Evernote 노트 공유](https://www.evernote.com/l/AJBI1MggyH9Ac5tcj74cqL6hJrpLn3I7Phw/)
 
 * 일반적으로 서버를 관리한다는 건 복잡하고 어려우며 고오급 개발자들의 섬세한 작업이 필요한 영역입니다.
 * 도커는 컨테이너 기반의 오픈소스 가상화 플랫폼입니다. 컨테이너는 격리된 공간에서 프로세스가 동작하는 기술입니다. 가상화 기술의 하나지만 기존방식과는 차이가 있습니다.
