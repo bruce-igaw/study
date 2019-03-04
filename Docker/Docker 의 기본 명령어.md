@@ -234,4 +234,4 @@
 
 # Docker Compose
 
-* [다음 페이지](Docker&#32;의&#32;기본&#32;명령어.md)에서 복잡한 설정을 쉽게 관리하기 위한 Docker Compose 에 대해 알아보겠습니다.
+* [다음 페이지](Docker-Compose.md)에서 복잡한 설정을 쉽게 관리하기 위한 Docker Compose 에 대해 알아보겠습니다.
