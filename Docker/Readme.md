@@ -39,6 +39,6 @@
 * LXC는 격리된 공간만 제공할 뿐 개발 및 서버 운영에 필요한 부가 기능이 부족했습니다. Docker는 리눅스 커널의 cgroups와 namespaces를 기반으로 하여 이미지, 컨테이너 생성 및 관리 기능과 다양한 부가 기능을 제공합니다.
 * Docker가 처음 개발될 당시에는 LXC를 기반으로 구현을 하였지만 버전 0.9부터는 LXC를 대신하는 libcontainer를 개발하여 사용하고 있습니다. 내부적으로는 실행 드라이버(exec driver)라고 하는데 libcontainer는 native, LXC는 lxc로 표시됩니다. 실행 옵션에 따라 libcontainer를 사용하지 않고 LXC를 사용할 수도 있습니다.
 
-# Docker 의 기본 개념
+# Docker 의 기본 명령어
 
-* [다음 페이지](Docker&#32;의&#32;기본&#32;개념.md)에서 Docker 를 사용하기 위한 기본 개념에 대해 알아보겠습니다.
+* [다음 페이지](Docker-Compose.md)에서 Docker 를 사용하기 위한 기본 명령어에 대해 알아보겠습니다.
